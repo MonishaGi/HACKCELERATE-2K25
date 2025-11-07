@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://117.247.182.134:8081/hackcelerate/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKCELERATE 2024</title>
+    <!-- Bootstrap CSS -->
+    <link href="./b_files/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .custom-section {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 50px 20px;
+            border-radius: 15px;
+			background-image:url("bg4.jpg"); 
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .custom-btn {
+            background-color: #ffffff;
+            color: #2575fc;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+        .custom-btn:hover {
+            background-color: #2575fc;
+            color: white;
+        }
+		.form-table {
+            max-width: 800px;
+            margin: 30px auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-table th {
+            background-color: #f8f9fa;
+            text-align: left;
+            padding: 15px;
+        }
+        .form-table td {
+            padding: 10px;
+        }
+		  .mentor-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .mentor-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .mentor-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .mentor-card h3 {
+            font-size: 1.2em;
+            margin: 10px 0 5px;
+        }
+        .mentor-card p {
+            margin: 5px 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+		.gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+		
+	 .blessings {
+            text-align: center;
+            font-size: 1.5em;
+            font-style: italic;
+            color: #4CAF50;  /* Green color for blessings */
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+        .committee-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;  /* Add space between members */
+            flex-wrap: wrap;  /* Allow items to wrap on smaller screens */
+            text-align: center;
+        }
+        .committee-member {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            width: 300px;  /* Set width for each member */
+        }
+        .committee-member:hover {
+            transform: scale(1.05);
+        }
+        .committee-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .committee-member h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #0073e6;
+        }
+        .committee-member p {
+            color: #666;
+        }
+    </style>
+<style type="text/css"><br>  @keyframes sectionFadeIn {<br>    from {<br>      opacity: 0;<br>      transform: translateY(10px);<br>    }<br>    to {<br>      opacity: 1;<br>      transform: translateY(0);<br>    }<br>  }<br></style><link type="text/css" rel="stylesheet" href="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/css/mcafee_fonts.css"></head>
+<body>
+
+<div class="container my-5">
+    <div class="custom-section text-center">
+        <img src="./b_files/logo.png" width="100%" alt="Clg Logo"><br>
+									
+									
+                                      <br> <b><font color="white" size="6">HACKCELERATE 2024 </font>
+									 
+								<font size="3" color="#e40034">		</font></b><h6><b><font size="3" color="#e40034">Transforming Ideas into Reality !... <br>
+									<br> <font color="yellow" size="5">First 24 Hour Hackathon on GSSSIETW Campus for Students of GSSSIETW Only</font> 
+									
+									
+										</font>
+</b></h6> <br>
+									<h2> <b><font color="orange"> 4<sup>th</sup>- 5<sup>th</sup> December 2024 </font></b></h2>
+
+<h3> Organized by Department of CSE(AI&amp;ML)</h3>
+	
+	<a href="http://117.247.182.134:8081/hackcelerate/code.pdf" target="blank" class="btn btn-warning" role="button" aria-disabled="true"> Click here to Download the Code of Conduct</a><br><br>
+
+	<a href="http://117.247.182.134:8081/hackcelerate/list.php" target="blank" class="btn btn-success" role="button" aria-disabled="true"> Top 30 Teams Shortlisted for Finale</a><br><br>
+	
+	<a href="http://117.247.182.134:8081/hackcelerate/hack.pdf" target="blank" class="btn btn-success" role="button" aria-disabled="true"> Click here to Download the Brochure for more information</a><br><br>
+
+
+
+<a href="https://drive.google.com/drive/folders/1-d2Fw9O4lzTIGxD57MVrGwKA6KWHC1WY" target="blank" class="btn btn-success" role="button">Click here for Problem Statement </a>
+
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="custom-section text-center">
+      
+                                   <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">With the Blessings of </h1>
+                                    </div>
+    <div class="committee-container">
+        <!-- Founder Secretary -->
+        <div class="committee-member">
+            <img src="./b_files/sir.jpg" alt="Founder Secretary">
+            <h3>Late. Prof. B. S. Pandit</h3>
+            <p>Hon. Founder Secretary,GSSS(R)</p>
+        </div>
+
+        <!-- Former Hon. Secretary -->
+        <div class="committee-member">
+            <img src="./b_files/madam.jpg" alt="Former Hon. Secretary">
+            <h3>Late. Smt. Vanaja B. Pandit</h3>
+            <p>Former Hon. Secretary, GSSS(R)</p>
+        </div>
+		
+    </div>
+
+        
+	
+    </div>
+</div>
+
+
+<div class="container my-5">
+    <div class="custom-section text-center">
+      
+                                   <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">With the Support and Guidance of  </h1>
+                                    </div>
+    <div class="committee-container">
+        <!-- Founder Secretary -->
+        <div class="committee-member">
+            <img src="./b_files/sec.jpg" alt="Secretary">
+            <h3>Smt. Anupama B Pandit</h3>
+            <p>Secretary, GSSS(R)</p>
+        </div>
+
+        <!-- Former Hon. Secretary -->
+        <div class="committee-member">
+            <img src="./b_files/ceo.jpg" alt="CEO">
+            <h3>Sri. R. K. Bharath </h3>
+            <p>Member &amp; CEO, GSSS (R)</p>
+        </div>
+		
+		<div class="committee-member">
+            <img src="./b_files/princi.jpg" alt="Principal">
+            <h3>Dr. Shivakumar M</h3>
+            <p>Principal</p>
+        </div>
+		
+    </div>
+
+        
+	
+    </div>
+</div>
+
+
+<div class="container my-5">
+    <div class="custom-section text-center">
+      
+                                   <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Chief Guest </h1>
+                                    </div>
+    <div class="committee-container">
+        <!-- Founder Secretary -->
+        <div class="committee-member">
+            <img src="./b_files/cg.jpg" alt="Founder Secretary">
+            <h3>Satyam Dwivedi</h3>
+            <p>Director of Data and Analytics at Sanas AI</p> 
+			  </div>
+
+        <!-- Former Hon. Secretary -->
+       
+		
+    </div>
+
+        
+	
+    </div>
+</div>
+
+
+
+<div class="container my-5">
+    <div class="custom-section text-center">
+        <h1 class="mb-4">HACKCELERATE 2024</h1>
+        <h2>Individual Student Feedback Form</h2>
+		<form action="http://117.247.182.134:8081/hackcelerate/register.php" method="POST" enctype="multipart/form-data">
+        <table class="table form-table">
+            <tbody>
+			
+		     	 <tr>
+                    <th>Choose you Team Name</th>
+                    <td>
+					
+<select class="form-control" name="tid" style="width:200px;" required="" fdprocessedid="3f6y19">
+                                    <option selected="">Choose Your Team </option>
+									<option value="HC24-42">HC24-42-AI architects</option><option value="HC24-10">HC24-10-App Venturers </option><option value="HC24-33">HC24-33-Binary Brains</option><option value="HC24-20">HC24-20-Brainy Bunch </option><option value="HC24-28">HC24-28-BRO CODE</option><option value="HC24-13">HC24-13-Bug Busters</option><option value="HC24-30">HC24-30-ByteBeginners</option><option value="HC24-24">HC24-24-Code Conquerors</option><option value="HC24-51">HC24-51-Code Crusaders</option><option value="HC24-26">HC24-26-Code Crusaders</option><option value="HC24-34">HC24-34-Code Newbies</option><option value="HC24-50">HC24-50-Code3</option><option value="HC24-9">HC24-9-CodeMinds</option><option value="HC24-32">HC24-32-CODESTRIX</option><option value="HC24-8">HC24-8-CodeTrio
+</option><option value="HC24-41">HC24-41-Debug divas .</option><option value="HC24-19">HC24-19-Debug Forge</option><option value="HC24-21">HC24-21-Dynamic Trio</option><option value="HC24-46">HC24-46-Griffin Coders</option><option value="HC24-36">HC24-36-Hack Streak⚡</option><option value="HC24-2">HC24-2-Hackadons</option><option value="HC24-48">HC24-48-Hacktivators</option><option value="HC24-23">HC24-23-Hactivators</option><option value="HC24-6">HC24-6-InfiniZ</option><option value="HC24-35">HC24-35-InfoTech</option><option value="HC24-15">HC24-15-Innovatives</option><option value="HC24-31">HC24-31-Innoventures</option><option value="HC24-7">HC24-7-Mini coders </option><option value="HC24-27">HC24-27-Motiv8</option><option value="HC24-45">HC24-45-Pro hackers</option><option value="HC24-1">HC24-1-ProjectsMinds</option><option value="HC24-3">HC24-3-Spark</option><option value="HC24-47">HC24-47-Stack Force</option><option value="HC24-38">HC24-38-team techno</option><option value="HC24-40">HC24-40-Team Techno</option><option value="HC24-25">HC24-25-Tech Army</option><option value="HC24-11">HC24-11-Tech Titans</option><option value="HC24-16">HC24-16-Tech Trailblazers</option><option value="HC24-14">HC24-14-Tech Trio</option><option value="HC24-37">HC24-37-Tech Trio</option><option value="HC24-22">HC24-22-Techminds</option><option value="HC24-39">HC24-39-TechT</option><option value="HC24-51">HC24-51-TechTitans</option><option value="HC24-49">HC24-49-Techwizards</option><option value="HC24-17">HC24-17-The Exceptions</option><option value="HC24-12">HC24-12-The Server Squad </option><option value="HC24-18">HC24-18-The Try-Catchers</option><option value="HC24-43">HC24-43-The Unstoppables </option><option value="HC24-29">HC24-29-Think Tankers</option><option value="HC24-4">HC24-4-Trinity of Tech</option><option value="HC24-5">HC24-5-Trophy Hackers</option>									</select>
+				
+					</td>
+                </tr>
+                
+				<tr>
+                    <th>Over all Rating</th>
+                    <td>
+					 <select id="options" name="dept" class="form-control form-control-user" required="" fdprocessedid="aapuw7l">
+											<option value="NA">Select the Rating </option>
+												<option value="1">Average</option>
+												<option value="2">Good</option>
+												<option value="3">Very Good</option>
+												<option value="4">Excellent</option>
+												<option value="5">Outstanding</option>
+
+											</select>
+	
+					</td>
+                </tr>
+				 <tr>
+                    <th>About Your Mentor</th>
+                    <td><input type="text" name="semester" class="form-control" required="" fdprocessedid="kods6q"></td>
+                </tr>
+                <tr>
+                    <th>Best Part of the Event</th>
+                    <td><input type="text" name="email" class="form-control" required="" fdprocessedid="cj2vql"></td>
+                </tr>
+                <tr>
+                    <th>About the Initiative (Real-time problem Solving)</th>
+                    <td><input type="text" name="mob" class="form-control" required="" fdprocessedid="xcbwa6"></td>
+                </tr>
+                <tr>
+                    <th>Any Suggestion / Comments</th>
+                    <td><input type="text" name="pmob" class="form-control" required="" fdprocessedid="f2ow6e"></td>
+                </tr>
+               
+                           
+               
+            </tbody>
+        </table>
+        <div class="text-center mt-3">
+            <button type="submit" class="btn btn-primary" fdprocessedid="wtihfs">Submit</button>
+        </div>
+    </form>
+       
+        
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="custom-section text-center">
+        <div class="p-5">
+                                   <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Mentors Details </h1>
+                                    </div>
+        <div class="mentor-container">
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI002.jpg">
+                <p>4GW21CI002</p>
+                <p>Anannya P S</p>
+				<p>Mentoring TIER-2 SPOC</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI004.jpg">
+                <p>4GW21CI004</p>
+                <p>Ananya Kadiam</p>
+				<p>Mentoring College Calender</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI008.jpg">
+                <p>4GW21CI008</p>
+                <p>Bhoomika M R</p>
+				<p>Mentoring Placement Cell Management</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI009.jpg">
+                <p>4GW21CI009</p>
+                <p>Chaithra M N</p>
+				<p>Mentoring College Calendar</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI011.jpg">
+                <p>4GW21CI011</p>
+                <p>Fiza Naaz</p>
+				<p>Mentoring Placement Cell Management</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI012.jpg">
+                <p>4GW21CI012</p>
+                <p>Gunashree P</p>
+				<p>Mentoring Faculty Self-appraisal</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI013.jpg">
+                <p>4GW21CI013</p>
+                <p>Harshitha B G</p>
+				<p>Mentoring 	
+Faculty Self-appraisal</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI014.jpg">
+                <p>4GW21CI014</p>
+                <p>Harshitha K M</p>
+				<p>Mentoring College Bus Pass</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI015.jpg">
+                <p>4GW21CI015</p>
+                <p>Hasmitha Vageesh</p>
+				<p>Mentoring College Bus Pass</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI017.jpg">
+                <p>4GW21CI017</p>
+                <p>Kavya C</p>
+				<p>Mentoring Department Library</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI020.jpg">
+                <p>4GW21CI020</p>
+                <p>Likhitha Rani L</p>
+				<p>Mentoring Seminar Hall booking</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI024.jpg">
+                <p>4GW21CI024</p>
+                <p>Moulya M R</p>
+				<p>Mentoring Alumni Network</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI030.jpg">
+                <p>4GW21CI030</p>
+                <p>Poorvika M</p>
+				<p>Mentoring Budget and Indent Automation</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI031.jpg">
+                <p>4GW21CI031</p>
+                <p>Pragna M V</p>
+				<p>Mentoring Automated Timetable Generator</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI032.jpg">
+                <p>4GW21CI032</p>
+                <p>Pratheeksha H L</p>
+				<p>Mentoring Seminar Hall booking</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI033.jpg">
+                <p>4GW21CI033</p>
+                <p>Rachana D Kashyap</p>
+				<p>Mentoring SPOC</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI038.jpg">
+                <p>4GW21CI038</p>
+                <p>Saniha S Jain</p>
+				<p>Mentoring TIER-3 SPOC</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI003.jpg">
+                <p>4GW21CI003</p>
+                <p>Ananya K R</p>
+				<p>Mentoring Department No Due</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI040.jpg">
+                <p>4GW21CI040</p>
+                <p>Sanjana S  Gowda</p>
+				<p>Mentoring Automated Timetable generator</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI043.jpg">
+                <p>4GW21CI043</p>
+                <p>Shreya M</p>
+				<p>Mentoring TIER-1 SPOC</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI055.jpg">
+                <p>4GW21CI055</p>
+                <p>Vinutha J</p>
+				<p>Mentoring Automated ID Generation
+</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW22CI400.jpg">
+                <p>4GW22CI400</p>
+                <p>Ashwini R</p>
+				<p>Mentoring Event Management</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI047.jpg">
+                <p>4GW21CI047</p>
+                <p>Sona Nayak S</p>
+				<p>Mentoring Event Management</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI049.jpg">
+                <p>4GW21CI049</p>
+                <p>Sushmitha G</p>
+				<p>Mentoring GYM Management</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW21CI052.jpg">
+                <p>4GW21CI052</p>
+                <p>Tavanampalli Joshika</p>
+				<p>Mentoring Event Attendence</p>
+            </div>
+                    <div class="mentor-card">
+			    <img src="./b_files/4GW22CI401.jpg">
+                <p>4GW22CI401</p>
+                <p>Dhanyashree S</p>
+				<p>Mentoring Department No Due</p>
+            </div>
+            </div>
+						
+				<marquee width="100%" behavior="alternate">  
+									This section is under updation	
+										</marquee>   				
+                        						   
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="custom-section text-center">
+        <div class="p-5">
+                                   <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Gallery </h1>
+                                    </div>
+       
+       
+	   <div class="gallery">
+        <img src="./b_files/1.jpg" alt="Gallery Image"><img src="./b_files/16.jpg" alt="Gallery Image"><img src="./b_files/18.jpg" alt="Gallery Image"><img src="./b_files/20.jpg" alt="Gallery Image"><img src="./b_files/5.jpg" alt="Gallery Image"><img src="./b_files/6.jpg" alt="Gallery Image"><img src="./b_files/7.jpg" alt="Gallery Image">    </div>
+	   
+
+			 <marquee width="100%" behavior="alternate">  
+									This section is under updation	
+										</marquee>   			
+							
+                        						   
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="custom-section text-center">
+        <div class="p-5">
+                                   <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Usefull Refernce Links </h1>
+                                    </div>
+                                    
+									 <div class="tutorial-card">
+            <h2 class="tutorial-title">
+                <a href="https://www.youtube.com/watch?v=tz5iWA9tbpE" target="_blank">
+                    PHPMyAdmin Tutorial For Beginners 2020
+                </a>
+            </h2>
+            <p class="tutorial-description">
+                A beginner-friendly guide to using phpMyAdmin for database management.
+            </p>
+        </div>
+
+        <!-- Tutorial 2 -->
+        <div class="tutorial-card">
+            <h2 class="tutorial-title">
+                <a href="https://www.youtube.com/watch?v=n7c5zMk8cx4" target="_blank">
+                    PHP MySQL Tutorial: Create a Database and Table in phpMyAdmin
+                </a>
+            </h2>
+            <p class="tutorial-description">
+                Learn how to create a database and table within phpMyAdmin.
+            </p>
+        </div>
+
+        <!-- Tutorial 3 -->
+        <div class="tutorial-card">
+            <h2 class="tutorial-title">
+                <a href="https://www.youtube.com/watch?v=YFlIw4KMpVM" target="_blank">
+                    PHP Tutorial (&amp; MySQL) #24 - Setting Up a MySQL Database
+                </a>
+            </h2>
+            <p class="tutorial-description">
+                A tutorial on setting up a MySQL database using phpMyAdmin.
+            </p>
+        </div>
+							
+                 <marquee width="100%" behavior="alternate">  
+									Few more reference will be made available shortly	
+										</marquee>       						   
+                                </div>
+								
+								
+    </div>
+</div>
+
+
+
+
+
+<div class="container my-5">
+    <div class="custom-section text-center">
+        <div class="p-5">
+                                   <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Mentors</h1>
+                                    </div>
+                                    
+									Dr. Manjuprasad B, Professor &amp; Head  <br>
+									manjuprasad32@gsss.edu.in <br>
+									7259114432 <br>
+                                   
+								   <br><br>
+								    Rachana D Kashyap, Student Coordinator, +91 63617 86675 <br>
+									Saniha S Jain, Student Coordinator +91 80885 22472  <br>
+							
+                        						   
+                                </div>
+								
+								  <h2 class="tutorial-title">
+                <a href="https://www.instagram.com/ai.verse.gsss?utm_source=qr&amp;igsh=MXh5MTMwZDA2Zzhjcg==" target="_blank">
+                    Follow Us on Instagram
+                </a>
+            </h2>
+								
+								
+    </div>
+</div>
+
+
+
+
+
+<!-- Bootstrap JS -->
+<script src="./b_files/bootstrap.bundle.min.js.download"></script>
+
+
+
+
+
+
+
+
+
+
+<main id="mentorai-extension" class="preplaced-extension"><div class="fixed bottom-[120px] z-[9999999] right-0 h-[40px] rounded-l-[20px] rounded-r-none bg-[#07070A] !max-w-[120px] cursor-pointer" draggable="false" style="transform: translateY(10px); user-select: none; touch-action: pan-x;"><div class="flex items-center relative justify-between gap-2 py-1 pl-1"><div class="flex items-center gap-[5px]"><div class="relative"><img src="./b_files/Leeco.png" class="h-[32px] w-[32px] rounded-full min-h-[32px] min-w-[32px]" alt="avatar"><span class="absolute -bottom-[1px] -right-[2px] border-[2px] border-[#000] w-[10px] h-[10px] rounded-full bg-[#1FC16B]"></span></div><div class="flex items-center justify-center"></div></div></div></div></main><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span><span id="PING_CONTENT_DLS_POPUP" style="display: none;"></span><div style="background-color: transparent; border: none; bottom: 15px; display: block; margin: 0px; opacity: 1; padding: 0px; position: fixed; right: 15px; z-index: 2147483647;"><template shadowrootmode="closed"><style>/*!
+ * 
+ *     MCAFEE RESTRICTED CONFIDENTIAL
+ *     Copyright (c) 2025 McAfee, LLC
+ *
+ *     The source code contained or described herein and all documents related
+ *     to the source code ("Material") are owned by McAfee or its
+ *     suppliers or licensors. Title to the Material remains with McAfee
+ *     or its suppliers and licensors. The Material contains trade
+ *     secrets and proprietary and confidential information of McAfee or its
+ *     suppliers and licensors. The Material is protected by worldwide copyright
+ *     and trade secret laws and treaty provisions. No part of the Material may
+ *     be used, copied, reproduced, modified, published, uploaded, posted,
+ *     transmitted, distributed, or disclosed in any way without McAfee's prior
+ *     express written permission.
+ *
+ *     No license under any patent, copyright, trade secret or other intellectual
+ *     property right is granted to or conferred upon you by disclosure or
+ *     delivery of the Materials, either expressly, by implication, inducement,
+ *     estoppel or otherwise. Any license under such intellectual property rights
+ *     must be expressed and approved by McAfee in writing.
+ *
+ */
+@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Thin.ttf") format("truetype");font-weight:100;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-ThinItalic.ttf") format("truetype");font-weight:100;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-ExtraLight.ttf") format("truetype");font-weight:200;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-ExtraLightItalic.ttf") format("truetype");font-weight:200;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Light.ttf") format("truetype");font-weight:300;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-LightItalic.ttf") format("truetype");font-weight:300;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Regular.ttf") format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Italic.ttf") format("truetype");font-weight:400;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Medium.ttf") format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-MediumItalic.ttf") format("truetype");font-weight:500;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-SemiBoldItalic.ttf") format("truetype");font-weight:600;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Bold.ttf") format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-BoldItalic.ttf") format("truetype");font-weight:700;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-ExtraBold.ttf") format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");font-weight:800;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Black.ttf") format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-BlackItalic.ttf") format("truetype");font-weight:900;font-style:italic}*{border:0;box-sizing:border-box;font:inherit;font-family:"McAfeePoppins",Helvetica,Arial;font-size:100%;margin:0;padding:0;vertical-align:baseline;outline:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html,body{background-color:#f5f6fa;font-family:"McAfeePoppins",Helvetica,Arial;line-height:1;height:100%;width:100%}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0}b{font-weight:bold}img{display:block}.dls__container{align-items:center;display:flex;margin:0 auto;margin-top:50px;position:relative}.dls__popup__expanded{align-items:center;overflow:hidden;border-radius:100px;cursor:pointer;display:flex;left:0;padding:15px;position:absolute;height:95px;width:383px;background-color:#fff;transition:all .3s ease-in-out}.dls__popup__expanded .dls__icon{height:65px;width:73px}.content{margin-left:12px}.content .content__images{display:flex;align-items:center;width:250px}.content .content__images .seperator__line{margin-left:5px;margin-right:10px}.content .content__images #dls_close_icon{cursor:pointer;margin-left:auto;margin-right:0px}.content p{font-family:"McAfeePoppins",Helvetica,Arial;font-weight:"400";font-size:14px;line-height:20px;margin-top:8px;color:#4258ff;width:250px;cursor:pointer}.shield{overflow:hidden;box-shadow:0px 2px 4px 0px rgba(33,41,52,.12),0px -1px 2px 0px rgba(0,0,0,.08);align-items:center;border-radius:100px;bottom:0;display:flex;height:95px;justify-content:center;position:absolute;right:0;width:383px;transition:all .3s ease-in-out}.shield__circle{display:flex;justify-content:center;align-items:center;width:55px;height:55px;background-color:#c01818;transition:all .6s ease-in-out .2s;z-index:1;opacity:0}
+
+/*# sourceMappingURL=../sourceMap/chrome/css/download_scan_popup.css.map*/</style><div class="dls__container">
+  <div class="shield" style="background: transparent; opacity: 0.1; display: none;">
+    <div class="shield__circle" style="opacity: 1;">
+      <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_white.svg?secret=pug7th" x-mcsrc="" id="dls_ballon_icon" x-mcsrcparsed="true">
+    </div>
+    <div class="dls__popup__expanded" style="opacity: 0;">
+      <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/download_scan_icon.svg?secret=pug7th" x-mcsrc="" class="dls__icon" x-mcsrcparsed="true">
+      <div class="content">
+        <div class="content__images">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_red.svg?secret=pug7th" x-mcsrc="" id="dls_mcafee_logo" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/seperator_line.svg?secret=pug7th" x-mcsrc="" class="seperator__line" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/webadvisor.svg?secret=pug7th" x-mcsrc="" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/close-outline.svg?secret=pug7th" x-mcsrc="" id="dls_close_icon" x-mcsrcparsed="true">
+        </div>
+        <p id="download_scan_popup_expanded_descriptions">Your download's being scanned. We'll let you know if there's an issue.</p>
+      </div>
+    </div>
+  </div>
+</div><style>/*!
+ * 
+ *     MCAFEE RESTRICTED CONFIDENTIAL
+ *     Copyright (c) 2025 McAfee, LLC
+ *
+ *     The source code contained or described herein and all documents related
+ *     to the source code ("Material") are owned by McAfee or its
+ *     suppliers or licensors. Title to the Material remains with McAfee
+ *     or its suppliers and licensors. The Material contains trade
+ *     secrets and proprietary and confidential information of McAfee or its
+ *     suppliers and licensors. The Material is protected by worldwide copyright
+ *     and trade secret laws and treaty provisions. No part of the Material may
+ *     be used, copied, reproduced, modified, published, uploaded, posted,
+ *     transmitted, distributed, or disclosed in any way without McAfee's prior
+ *     express written permission.
+ *
+ *     No license under any patent, copyright, trade secret or other intellectual
+ *     property right is granted to or conferred upon you by disclosure or
+ *     delivery of the Materials, either expressly, by implication, inducement,
+ *     estoppel or otherwise. Any license under such intellectual property rights
+ *     must be expressed and approved by McAfee in writing.
+ *
+ */
+.mc-interactive-balloon{position:absolute;right:-50px;bottom:8px;box-shadow:rgba(0,0,0,.12) 0px 0px 10px;height:40px;width:40px;background:#1671ee;border-radius:20px;display:flex;justify-content:center;align-items:center}
+
+/*# sourceMappingURL=../sourceMap/chrome/css/interactive_balloon.css.map*/</style></template></div></body></html>
