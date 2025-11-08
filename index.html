@@ -214,6 +214,136 @@
     </div>
 </div>
 
+
+
+
+
+
+
+<div class="container my-5">
+  <div class="custom-section text-center">
+    <h1 class="mb-4">HACKCELERATE 2025</h1>
+    <h2>Phase-1 Abstract Submission</h2>
+
+    <form id="abstractForm" enctype="multipart/form-data">
+      <table class="table form-table" style="margin: 0 auto; width: 70%; border-collapse: collapse;">
+        <tbody>
+          <tr>
+            <th style="text-align: left; padding: 8px;">Team Name</th>
+            <td style="padding: 8px;">
+              <input type="text" class="form-control" name="team_name" style="width: 100%;" required>
+            </td>
+          </tr>
+
+          <tr>
+            <th style="text-align: left; padding: 8px;">Team Leader's Name</th>
+            <td style="padding: 8px;">
+              <input type="text" class="form-control" name="leader_name" style="width: 100%;" required>
+            </td>
+          </tr>
+
+          <tr>
+            <th style="text-align: left; padding: 8px;">Upload Abstract (PDF)</th>
+            <td style="padding: 8px;">
+              <input type="file" class="form-control" name="abstract_file" accept=".pdf" required>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="text-center mt-4">
+        <button type="submit" class="btn btn-primary" 
+                style="background-color: #007bff; color: white; padding: 10px 30px; border: none; border-radius: 8px;">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+document.getElementById("abstractForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const formData = new FormData();
+  formData.append("team_name", this.team_name.value);
+  formData.append("leader_name", this.leader_name.value);
+  formData.append("abstract_file", this.abstract_file.files[0]);
+
+  fetch("https://script.google.com/macros/s/AKfycbxkFv7hze76ZvjYOMZkM96_ztmRAZWbKLxbZLQE6kSM_ktvF2Fd_n2SasAe7jAhPGin/exec", {
+    method: "POST",
+    body: formData
+  })
+  .then(res => res.text())
+  .then(res => alert("✅ Abstract uploaded successfully!"))
+  .catch(err => alert("❌ Upload failed: " + err.message));
+});
+</script>
+
+
+
+
+<!--
+		<form action="register.php" method="POST" enctype="multipart/form-data">
+        <table class="table form-table">
+            <tbody>
+			
+		     	 <tr>
+                    <th>Team Name</th>
+                    <td>
+					
+        <input type="text" class="form-control" name="tid" style="width:200px;" required>
+                                    Enter Your Team Name 
+									<option value='HC24-42'>HC24-42-AI architects</option><option value='HC24-10'>HC24-10-App Venturers </option><option value='HC24-33'>HC24-33-Binary Brains</option><option value='HC24-20'>HC24-20-Brainy Bunch </option><option value='HC24-28'>HC24-28-BRO CODE</option><option value='HC24-13'>HC24-13-Bug Busters</option><option value='HC24-30'>HC24-30-ByteBeginners</option><option value='HC24-24'>HC24-24-Code Conquerors</option><option value='HC24-51'>HC24-51-Code Crusaders</option><option value='HC24-26'>HC24-26-Code Crusaders</option><option value='HC24-34'>HC24-34-Code Newbies</option><option value='HC24-50'>HC24-50-Code3</option><option value='HC24-9'>HC24-9-CodeMinds</option><option value='HC24-32'>HC24-32-CODESTRIX</option><option value='HC24-8'>HC24-8-CodeTrio
+    </option><option value='HC24-41'>HC24-41-Debug divas .</option><option value='HC24-19'>HC24-19-Debug Forge</option><option value='HC24-21'>HC24-21-Dynamic Trio</option><option value='HC24-46'>HC24-46-Griffin Coders</option><option value='HC24-36'>HC24-36-Hack Streak⚡</option><option value='HC24-2'>HC24-2-Hackadons</option><option value='HC24-48'>HC24-48-Hacktivators</option><option value='HC24-23'>HC24-23-Hactivators</option><option value='HC24-6'>HC24-6-InfiniZ</option><option value='HC24-35'>HC24-35-InfoTech</option><option value='HC24-15'>HC24-15-Innovatives</option><option value='HC24-31'>HC24-31-Innoventures</option><option value='HC24-7'>HC24-7-Mini coders </option><option value='HC24-27'>HC24-27-Motiv8</option><option value='HC24-45'>HC24-45-Pro hackers</option><option value='HC24-1'>HC24-1-ProjectsMinds</option><option value='HC24-3'>HC24-3-Spark</option><option value='HC24-47'>HC24-47-Stack Force</option><option value='HC24-38'>HC24-38-team techno</option><option value='HC24-40'>HC24-40-Team Techno</option><option value='HC24-25'>HC24-25-Tech Army</option><option value='HC24-11'>HC24-11-Tech Titans</option><option value='HC24-16'>HC24-16-Tech Trailblazers</option><option value='HC24-14'>HC24-14-Tech Trio</option><option value='HC24-37'>HC24-37-Tech Trio</option><option value='HC24-22'>HC24-22-Techminds</option><option value='HC24-39'>HC24-39-TechT</option><option value='HC24-51'>HC24-51-TechTitans</option><option value='HC24-49'>HC24-49-Techwizards</option><option value='HC24-17'>HC24-17-The Exceptions</option><option value='HC24-12'>HC24-12-The Server Squad </option><option value='HC24-18'>HC24-18-The Try-Catchers</option><option value='HC24-43'>HC24-43-The Unstoppables </option><option value='HC24-29'>HC24-29-Think Tankers</option><option value='HC24-4'>HC24-4-Trinity of Tech</option><option value='HC24-5'>HC24-5-Trophy Hackers</option>									</select>
+				
+					</td>
+                </tr>
+                
+				<tr>
+                    <th>Over all Rating</th>
+                    <td>
+					 <select id="options" name="dept" class="form-control form-control-user" required>
+											<option value="NA">Select the Rating </option>
+												<option value="1">Average</option>
+												<option value="2">Good</option>
+												<option value="3">Very Good</option>
+												<option value="4">Excellent</option>
+												<option value="5">Outstanding</option>
+
+											</select>
+	
+					</td>
+                </tr>
+            
+				 <tr>
+                    <th>About Your Mentor</th>
+                    <td><input type="text" name="semester" class="form-control" required>hi</td>
+                </tr>
+                <tr>
+                    <th>Best Part of the Event</th>
+                    <td><input type="text" name="email" class="form-control" required></td>
+                </tr>
+                <tr>
+                    <th>About the Initiative (Real-time problem Solving)</th>
+                    <td><input type="text" name="mob" class="form-control" required></td>
+                </tr>
+                <tr>
+                    <th>Any Suggestion / Comments</th>
+                    <td><input type="text" name="pmob" class="form-control" required></td>
+                </tr>
+               
+                           
+               
+            </tbody>
+        </table>
+        <div class="text-center mt-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+-->
+
+
 <div class="container my-5">
     <div class="custom-section text-center">
       
