@@ -192,7 +192,7 @@
         <div class="btn-stack mt-4">
         <a href="https://drive.google.com/drive/folders/1BQhb1pQTKZmxGExaFhIfdvSsbCh2muit" target="blank" class="btn btn-success" role="button">Hackathon Guide</a><br>
         <a href="Problem-Statement.pdf" target="blank" class="btn btn-warning" role="button" aria-disabled="true">Problem Statement</a><br>
-        <a href="https://forms.gle/owMjMsQcndSeZwAb6" target="_blank" class="btn btn-warning m-2">Registration Form</a><br>
+        <a href="https://forms.gle/owMjMsQcndSeZwAb6" target="_blank" class="btn btn-warning m-2">Abstract Submission Form</a><br>
         <a href="hack/Abstract-Submission-Template.docx" target="blank" class="btn btn-success" role="button" aria-disabled="true">Abstract Submission Template</a><br></div>
         <p><marquee>THE SHORTLISTED TEAMS WILL BE ANNOUNCED ON 15TH BY 7 PM!🎉 STAY TUNED!</marquee></p>
 
@@ -218,7 +218,7 @@
 
 
 
-
+<!--
 
 <div class="container my-5">
   <div class="custom-section text-center">
@@ -258,29 +258,41 @@
         </button>
       </div>
     </form>
-  </div>
-</div>
 
 <script>
-document.getElementById("abstractForm").addEventListener("submit", function(e) {
+document.getElementById("abstractForm").addEventListener("submit", async function(e) {
   e.preventDefault();
+  
+  const file = this.abstract_file.files[0];
+  const reader = new FileReader();
+  
+  reader.onload = async function() {
+    const base64File = reader.result.split(',')[1];
+    const data = new FormData();
+    data.append("team_name", e.target.team_name.value);
+    data.append("leader_name", e.target.leader_name.value);
+    data.append("file", base64File);
 
-  const formData = new FormData();
-  formData.append("team_name", this.team_name.value);
-  formData.append("leader_name", this.leader_name.value);
-  formData.append("abstract_file", this.abstract_file.files[0]);
+    try {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbywrKrU4Ba1clxZLvxIoqrgjEYE7BPoByhLdwJYpLM7BElDFHB3gn17XiRytZSUf8zsKw/exec", {  // 🔹 Paste your deployed Apps Script URL
+        method: "POST",
+        body: data
+      });
 
-  fetch("https://script.google.com/macros/s/AKfycbxkFv7hze76ZvjYOMZkM96_ztmRAZWbKLxbZLQE6kSM_ktvF2Fd_n2SasAe7jAhPGin/exec", {
-    method: "POST",
-    body: formData
-  })
-  .then(res => res.text())
-  .then(res => alert("✅ Abstract uploaded successfully!"))
-  .catch(err => alert("❌ Upload failed: " + err.message));
+      const text = await response.text();
+      alert(text);
+    } catch (err) {
+      alert("❌ Upload failed: " + err.message);
+    }
+  };
+
+  reader.readAsDataURL(file);
 });
 </script>
+</div>
+</div>
 
-
+-->
 
 
 <!--
@@ -543,7 +555,7 @@ document.getElementById("abstractForm").addEventListener("submit", function(e) {
                     <div class="mentor-card">
 			    <img src="mentor/4GW22CI017.jpg" >
                 <p>Chandana B</p>
-				<p>Mentoring <br> College Annual Report <br> Late Comming Analysis System</p>
+				<p>Mentoring <br> College Annual Report <br> Late Coming Analysis System</p>
             </div>
                     <div class="mentor-card">
 			    <img src="mentor/4GW22CI058.jpg" >
@@ -662,7 +674,7 @@ document.getElementById("abstractForm").addEventListener("submit", function(e) {
             </div>
             <div class="mentor-card">
 			    <img src="mentor/4GW22CI040.jpg" >
-                <p>Pradeeptha Hemanth </p>
+                <p>Pradeepta Hemanth </p>
 				<p>Mentoring <br> Student Counselling App</p>
             </div>
                     <div class="mentor-card">
